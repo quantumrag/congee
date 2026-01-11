@@ -176,7 +176,7 @@ impl<'a, N: Node, A: Allocator> Drop for AllocatedNode<'a, N, A> {
 
 #[cfg(test)]
 mod tests {
-    use crate::cast_ptr;
+    
     use crate::nodes::{BaseNode, Node, Node4};
     use crate::{Allocator, CongeeRaw, DefaultAllocator, MemoryStatsAllocator}; // Import the macro
 
